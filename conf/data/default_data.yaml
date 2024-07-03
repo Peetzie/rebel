@@ -21,3 +21,5 @@ eval_beams: 3
 ignore_pad_token_for_loss: True
 source_prefix: 
 relations_file: '/home/martinez/rebel/data/relations_count.tsv'
+relations:
+entities:

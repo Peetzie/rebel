@@ -1,12 +1,12 @@
 # @package _global_
 
 num_workers: 6
-dataset_name: '/home/martinez/rebel/docred_typed.py'
+dataset_name: '/work3/s174159/rebel/datasets/docred_typed.py'
 text_column: 'context'
 target_column: 'triplets'
-train_file: '/home/martinez/rebel/data/docred_joint/train_joint.json'
-validation_file: '/home/martinez/rebel/data/docred_joint/dev_joint.json'
-test_file: '/home/martinez/rebel/data/docred_joint/test_joint.json'
+train_file: '/work3/s174159/rebel/data/DocRED_joint/train_joint.json'
+validation_file: '/work3/s174159/rebel/data/DocRED_joint/dev_joint.json'
+test_file: '/work3/s174159/rebel/data/DocRED_joint/test_joint.json'
 overwrite_cache: False
 preprocessing_num_workers: 
 max_source_length: 1024
@@ -20,4 +20,6 @@ num_beams:
 eval_beams: 5
 ignore_pad_token_for_loss: True
 source_prefix: 
-relations_file: 
+relations_file:
+relations:
+entities:
